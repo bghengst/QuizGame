@@ -40,6 +40,9 @@ var questions = [
     var quizScreen = document.querySelector("#quiz")
     var finishScreen = document.querySelector("#finish")
     var nameEl = document.querySelector("#name")
+    var answerEl = document.querySelector("#answer")
+    var choicesEL = document.querySelector("#choices")
+    var questionsEl = document.querySelector("#questions")
 
     function startQuiz(){
         homepageScreen.setAttribute("class", "hide");
