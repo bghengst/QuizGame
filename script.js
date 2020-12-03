@@ -34,4 +34,10 @@ var questions = [
 ]
 
     var timeEl = document.querySelector("#time")
-    var
+    var startBtn = document.querySelector("#startbtn")
+    var submitBtn = document.querySelector("#submit-button")
+    var homepageScreen = document.querySelector("#homepage")
+    var quizScreen = document.querySelector("#quiz")
+    var finishScreen = document.querySelector("#finish")
+    var nameEl = document.querySelector("#name")
+
