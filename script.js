@@ -54,3 +54,13 @@ var questions = [
 
     startBtn.onclick= startQuiz
 
+    function countdown(){
+        time--;
+        timeEl.textContent = time;
+
+        if (time <= 0) {
+            quizEnd();
+        }
+
+
+    }
