@@ -33,3 +33,5 @@ var questions = [
     },
 ]
 
+    var timeEl = document.querySelector("#time")
+    var
