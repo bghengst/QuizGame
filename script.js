@@ -41,3 +41,11 @@ var questions = [
     var finishScreen = document.querySelector("#finish")
     var nameEl = document.querySelector("#name")
 
+    function startQuiz(){
+        homepageScreen.setAttribute("class", "hide");
+        quizScreen.setAttribute("class", "show");
+
+        timerID = setInterval(tick, 1000);
+        timeEl.textContent = time;
+    }
+
