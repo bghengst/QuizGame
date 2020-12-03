@@ -33,6 +33,8 @@ var questions = [
     },
 ]
 
+    var currentQuestionIndex = 0;
+
     var timeEl = document.querySelector("#time")
     var startBtn = document.querySelector("#startbtn")
     var submitBtn = document.querySelector("#submit-button")
@@ -62,9 +64,17 @@ var questions = [
             quizEnd();
         }
 
-
+        retrieveQuestion()
     }
 
 function retrieveQuestion{
-    var currentQuestion = questions [currentQuestionIndex]
+    var currentQuestion = questions[currentQuestionIndex];
+
+    var questionReplacer = document.getElementById("questions")
+    questionReplacer.textContent = currentQuestion.title;
+
+
+
 }
+
+startBtn.onclick = startQuiz
