@@ -49,3 +49,5 @@ var questions = [
         timeEl.textContent = time;
     }
 
+    startBtn.onclick= startQuiz
+
