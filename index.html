@@ -17,7 +17,7 @@
 
         <header class="row">
             <div class= "col-md-12" id="timer">
-                Time: <span id="timer">0</span>
+                Time: <span id="time">0</span>
 
             </div>
         </header>
@@ -35,7 +35,22 @@
         </div>
         
         <div id="quiz" class="hide">
-            <h2> id = "questionTitle"</h2>
+            <div class = "row">
+                <div class = "col-md-12 questions">
+                <h2 id = "questionTitle"></h2>
+                 </div>
+            </div>
+           
+            <div class = "row">
+                <div class = "col-md-12" id="choices">
+                </div>
+
+                <div id="answer" class="answer hide"></div>
+
+
+            </div>
+        
+        
             
         </div>
 
@@ -43,11 +58,14 @@
             <h3> You've Finished!</h3>
             <h4> Your final score is <span id="final-score">0</span> </h4>
             <label for = "Name-Area"> Enter First Name:</label>
-            
+            <input type = "text" name="Name-Area" maxlength="5" id="name">
+            <button id = "submit-button" type="submit">Submit</button>
+
             
         </section>
 
-        
+           <script type="text/javascript" src="script.js"></script>
+
     </div>   
 </body>
 </html>
