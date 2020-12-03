@@ -64,3 +64,7 @@ var questions = [
 
 
     }
+
+function retrieveQuestion{
+    var currentQuestion = questions [currentQuestionIndex]
+}
