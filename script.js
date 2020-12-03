@@ -12,5 +12,24 @@ var questions = [
         answer: "git commit"
     },
 
-    
+    {
+        title: "Which one of these is NOT used as a container in html?:"
+        choices: ["<p>", "<div>", "<br>", "<html>"]
+        answer: "<br>"
+
+    }
+
+    {
+        title: "What is the purpose of 'console.log'?:",
+        choices: ["to display data in a browsers console", "to save your code", "to log your code into a repo", "to add functionality to code"]
+        answer: "to display data in a browsers console"
+
+    }
+
+    {
+        title: "If an array has 4 items in it, what is the index position of the first item?:"
+        choices: ["0", "1", "3", "4"]
+        answer: "0"
+    }
 ]
+
